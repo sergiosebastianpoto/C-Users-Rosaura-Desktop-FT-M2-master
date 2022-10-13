@@ -16,6 +16,7 @@ const store = createStore(counter);
 // que vienen del paquete react-redux.
 // Esto es necesario porque el store necesita saber hacia dónde está pasando su estado.
 // El componente Provider es donde "vive" el store.
+
 ReactDOM.render(
   <Provider store={store}>
     <Counter />
